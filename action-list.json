@@ -4,11 +4,11 @@
     "actions": [
         {
             "name": "-",
-            "description": ""
+            "description": "\t'Run' - runs the argument actions, such as 'comp'"
         },
         {
             "name": "snippets",
-            "description": ""
+            "description": "Add VSCode snippets for segments"
         }
     ]
 }
