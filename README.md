@@ -2,6 +2,8 @@
 
 ## Install ##
 
+First, install bacon.
+
 ### Install bacon ###
 
 ```
@@ -19,7 +21,7 @@ source ~/Documents/bacon-bits/.baconrc
 ### Install blytz ###
 
 ```
-cd ~/Documents/bacon-bits && git clone *blytz*
+cd ~/Documents/bacon-bits && git clone https://github.com/jadeblytz/blytz.git
 bacon alias && bacon set
 ```
 
