@@ -29,6 +29,6 @@ Now, you can run `blytz` and you should see the available blytz commands.
 
 __You're all set!__
 
-#### Install VSCode Segments Code Snippet ####
+#### Install VSCode Segments Code Snippet: ####
 
 Run `blytz snippets`, and follow instructions.
