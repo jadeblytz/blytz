@@ -18,6 +18,8 @@ Add this line to your .bash_profile or .zshrc file:
 source ~/Documents/bacon-bits/.baconrc
 ```
 
+Now, install blytz.
+
 ### Install blytz ###
 
 ```
