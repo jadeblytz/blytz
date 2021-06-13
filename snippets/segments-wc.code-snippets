@@ -1,0 +1,213 @@
+{
+    "panels": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "panel",
+        "body": [
+            "<panel-wrapper class=\"panel-wrapper\">",
+            "\t<panel-inner class=\"panel-inner\">",
+            "\t\t${1}",
+            "\t</panel-inner>",
+            "</panel-wrapper>"
+        ],
+        "description": "segments Panel element"
+    },
+    "prime-segment": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "prime",
+        "body": [
+            "<x-prime>",
+            "\t<x-minor></x-minor>",
+            "\t<x-major></x-major>",
+            "</x-prime>"
+        ],
+        "description": "segments Panel element"
+    },
+    "half": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "half",
+        "body": [
+            "<x-segment class=\"half\">",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "</x-segment>"
+        ],
+        "description": "segments Half element"
+    },
+    "thirds": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "thirds",
+        "body": [
+            "<x-segment class=\"thirds\">",
+            "\t<x-minor></x-minor>",
+            "\t<x-major></x-major>",
+            "</x-segment>"
+        ],
+        "description": "segments Thirds element"
+    },
+    "thirds-cell": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "three",
+        "body": [
+            "<x-segment class=\"thirds\">",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "</x-segment>"
+        ],
+        "description": "segments Thirds Column element"
+    },
+    "fourths": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "fourths",
+        "body": [
+            "<x-segment class=\"fourths\">",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "</x-segment>"
+        ],
+        "description": "segments Fourths Column element"
+    },
+    "fourths-default": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "four",
+        "body": [
+            "<x-segment class=\"fourths\">",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "</x-segment>"
+        ],
+        "description": "segments Fourths Column element"
+    },
+    "fifths": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "fifths",
+        "body": [
+            "<x-segment class=\"fifths\">",
+            "\t<x-minor></x-minor>",
+            "\t<x-major></x-major>",
+            "</x-segment>"
+        ],
+        "description": "segments Fifths element"
+    },
+    "fifths-cell": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "five",
+        "body": [
+            "<x-segment class=\"fifths\">",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "</x-segment>"
+        ],
+        "description": "segments Fifths Column element"
+    },
+    "sixths": {
+        "prefix": "sixths",
+        "body": [
+            "<x-segment class=\"sixths\">",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "</x-segment>"
+        ],
+        "description": "segments Sixths Column element"
+    },
+    "sixths-default": {
+        "prefix": "six",
+        "body": [
+            "<x-segment class=\"sixths\">",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "</x-segment>"
+        ],
+        "description": "segments Sixths Column element"
+    },
+    "sevenths": {
+        "prefix": "sevenths",
+        "body": [
+            "<x-segment class=\"sevenths\">",
+            "\t<x-minor></x-minor>",
+            "\t<x-major></x-major>",
+            "</x-segment>"
+        ],
+        "description": "segments Sevenths element"
+    },
+    "sevenths-cell": {
+        "prefix": "seven",
+        "body": [
+            "<x-segment class=\"sevenths\">",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "\t<x-cell></x-cell>",
+            "</x-segment>"
+        ],
+        "description": "segments Sevenths Column element"
+    },
+    "clear wrap": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "clear-wrap",
+        "body": [
+            "<div class=\"clear-wrap\">",
+            "\t",
+            "</div>"
+        ]
+    },
+    "wrap": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "wrap",
+        "body": [
+            "<div class=\"wrap\">",
+            "\t",
+            "</div>"
+        ]
+    },
+    "border wrap": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "border-wrap",
+        "body": [
+            "<div class=\"border-wrap\">",
+            "\t",
+            "</div>"
+        ]
+    },
+    "rack": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "rack",
+        "body": [
+            "<div class=\"rack\">",
+            "\t<div>${1}</div>",
+            "</div>"
+        ]
+    },
+    "html": {
+        "scope": "html",
+        "prefix": "html",
+        "body": [
+            "<!doctype html>",
+            "<html lang=\"en-US\">",
+            "\t<head>",
+            "\t\t<meta charset=\"utf-8\">",
+            "\t</head>",
+            "\t<body>",
+            "\t</body>",
+            "</html>"
+        ]
+    },
+}

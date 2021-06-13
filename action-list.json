@@ -1,0 +1,14 @@
+{
+    "toolName": "blytz",
+    "alias": "blytz",
+    "actions": [
+        {
+            "name": "-",
+            "description": ""
+        },
+        {
+            "name": "snippets",
+            "description": ""
+        }
+    ]
+}

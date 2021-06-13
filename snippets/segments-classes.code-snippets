@@ -1,0 +1,213 @@
+{
+    "panels": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "panel",
+        "body": [
+            "<div class=\"panel-wrapper\">",
+            "\t<div class=\"panel-inner\">",
+            "\t\t${1}",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "segments Panel element"
+    },
+    "prime-segment": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "prime",
+        "body": [
+            "<div class=\"prime-segment\">",
+            "\t<div class=\"minor\"></div>",
+            "\t<div class=\"major\"></div>",
+            "</div>"
+        ],
+        "description": "segments Panel element"
+    },
+    "half": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "half",
+        "body": [
+            "<div class=\"segment half\">",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "</div>"
+        ],
+        "description": "segments Half element"
+    },
+    "thirds": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "thirds",
+        "body": [
+            "<div class=\"segment thirds\">",
+            "\t<div class=\"minor\"></div>",
+            "\t<div class=\"major\"></div>",
+            "</div>"
+        ],
+        "description": "segments Thirds element"
+    },
+    "thirds-cell": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "three",
+        "body": [
+            "<div class=\"segment thirds\">",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "</div>"
+        ],
+        "description": "segments Thirds Column element"
+    },
+    "fourths": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "fourths",
+        "body": [
+            "<div class=\"segment fourths\">",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "</div>"
+        ],
+        "description": "segments Fourths Column element"
+    },
+    "fourths-default": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "four",
+        "body": [
+            "<div class=\"segment fourths\">",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "</div>"
+        ],
+        "description": "segments Fourths Column element"
+    },
+    "fifths": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "fifths",
+        "body": [
+            "<div class=\"segment fifths\">",
+            "\t<div class=\"minor\"></div>",
+            "\t<div class=\"major\"></div>",
+            "</div>"
+        ],
+        "description": "segments Fifths element"
+    },
+    "fifths-cell": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "five",
+        "body": [
+            "<div class=\"segment fifths\">",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "</div>"
+        ],
+        "description": "segments Fifths Column element"
+    },
+    "sixths": {
+        "prefix": "sixths",
+        "body": [
+            "<div class=\"segment sixths\">",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "</div>"
+        ],
+        "description": "segments Sixths Column element"
+    },
+    "sixths-default": {
+        "prefix": "six",
+        "body": [
+            "<div class=\"segment sixths\">",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "</div>"
+        ],
+        "description": "segments Sixths Column element"
+    },
+    "sevenths": {
+        "prefix": "sevenths",
+        "body": [
+            "<div class=\"segment sevenths\">",
+            "\t<div class=\"minor\"></div>",
+            "\t<div class=\"major\"></div>",
+            "</div>"
+        ],
+        "description": "segments Sevenths element"
+    },
+    "sevenths-cell": {
+        "prefix": "seven",
+        "body": [
+            "<div class=\"segment sevenths\">",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "\t<div class=\"cell\"></div>",
+            "</div>"
+        ],
+        "description": "segments Sevenths Column element"
+    },
+    "clear wrap": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "clear-wrap",
+        "body": [
+            "<div class=\"clear-wrap\">",
+            "\t",
+            "</div>"
+        ]
+    },
+    "wrap": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "wrap",
+        "body": [
+            "<div class=\"wrap\">",
+            "\t",
+            "</div>"
+        ]
+    },
+    "border wrap": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "border-wrap",
+        "body": [
+            "<div class=\"border-wrap\">",
+            "\t",
+            "</div>"
+        ]
+    },
+    "rack": {
+        "scope": "html, vue, typescript, typescriptreact",
+        "prefix": "rack",
+        "body": [
+            "<div class=\"rack\">",
+            "\t<div>${1}</div>",
+            "</div>"
+        ]
+    },
+    "html": {
+        "scope": "html",
+        "prefix": "html",
+        "body": [
+            "<!doctype html>",
+            "<html lang=\"en-US\">",
+            "\t<head>",
+            "\t\t<meta charset=\"utf-8\">",
+            "\t</head>",
+            "\t<body>",
+            "\t</body>",
+            "</html>"
+        ]
+    },
+}
