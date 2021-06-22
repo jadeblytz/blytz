@@ -9,7 +9,7 @@ First, install bacon.
 ```
 mkdir ~/Documents/bacon-bits
 cd ~/Documents/bacon-bits && git clone https://github.com/jaderigby/bacon.git
-scp ~/Documents/bacon-bits/bacon/.baconrc ~/test/bacon-bits
+scp ~/Documents/bacon-bits/bacon/.baconrc ~/Documents/bacon-bits
 ```
 
 Add this line to your .bash_profile or .zshrc file:
