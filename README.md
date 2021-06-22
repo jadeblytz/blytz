@@ -7,9 +7,9 @@ First, install bacon.
 ### Install bacon ###
 
 ```
-mkdir ~/test/bacon-bits
-cd ~/test/bacon-bits && git clone https://github.com/jaderigby/bacon.git
-scp ~/test/bacon-bits/bacon/.baconrc ~/test/bacon-bits
+mkdir ~/Documents/bacon-bits
+cd ~/Documents/bacon-bits && git clone https://github.com/jaderigby/bacon.git
+scp ~/Documents/bacon-bits/bacon/.baconrc ~/test/bacon-bits
 ```
 
 Add this line to your .bash_profile or .zshrc file:
