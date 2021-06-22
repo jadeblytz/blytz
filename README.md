@@ -18,7 +18,7 @@ Add this line to your .bash_profile or .zshrc file:
 source ~/Documents/bacon-bits/.baconrc
 ```
 
-Now, install blytz.
+Now, run `bacon` and you should see the available bacon commands.
 
 ### Install blytz ###
 
