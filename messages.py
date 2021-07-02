@@ -22,3 +22,14 @@ def example():
 	print('''
 process working!
 ''')
+
+def results(LOCATION, FILE, IMPORT_PATH):
+	print('''
+Component Created!
+
+===============================
+PATH:    ui/src/{location}
+FILE:    {file}
+IMPORT:  import {fileRef} from '{importPath}'
+===============================
+'''.format(location = LOCATION, file = FILE, importPath = IMPORT_PATH, fileRef = FILE[:-4]))

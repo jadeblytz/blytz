@@ -4,11 +4,35 @@
     "actions": [
         {
             "name": "-",
-            "description": "\t'Run' - runs the argument actions, such as 'comp'"
+            "description": "\t'Run' - runs the argument actions, such as 'comp'. Available Options:\n\ncomp:\t\tMake a new component, such as 'blytz - comp:MyNewComponent'.\n\n"
         },
         {
             "name": "snippets",
             "description": "Add VSCode snippets for segments"
+        },
+        {
+            "name": "page",
+            "description": "Create a new page (WIP)"
+        },
+        {
+            "name": "init",
+            "description": "Start Vagrant with 'run-db'; Start local servers; initialize pretend data"
+        },
+        {
+            "name": "start",
+            "description": "Start Vagrant with 'run-db'; Start local servers"
+        },
+        {
+            "name": "kill",
+            "description": "Kill Vagrant and local servers"
+        },
+        {
+            "name": "wipeout",
+            "description": "[currently not working] runs 'dagon stop' then kills Vagrant and local servers"
+        },
+        {
+            "name": "vcustom",
+            "description": "Add and initialize Vagrant custom_commands file"
         }
     ]
 }

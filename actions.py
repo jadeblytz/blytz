@@ -2,6 +2,11 @@ import sys, sizzle
 import messages as msg
 import Run
 import Snippets
+import Init
+import Start
+import Kill
+import Wipeout
+import VagrantCustom
 # new imports start here
 
 # settings = helpers.get_settings()
@@ -33,4 +38,19 @@ elif action == "-":
 
 elif action == "snippets":
 	Snippets.execute()
+
+elif action == "init":
+	Init.execute()
+
+elif action == "start":
+	Start.execute()
+
+elif action == "kill":
+	Kill.execute()
+
+elif action == "wipeout":
+	Wipeout.execute()
+
+elif action == "vcustom":
+	VagrantCustom.execute()
 # new actions start here

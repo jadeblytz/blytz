@@ -4,29 +4,28 @@ def basic():
 </template>
 
 <script>
-	export default {{
+export default {{
 
-	}}
-</script>'''
+}}
+</script>'''.format()
 
 def withProps(LIST):
     propsStr = ''
     for index, item in enumerate(LIST, start=1):
         if index == 1:
-            print("i did it!")
             propsStr += '{}: String,\n'.format(item)
         else:
-            propsStr += '\t\t{}: String,\n'.format(item)
+            propsStr += '    {}: String,\n'.format(item)
     return '''<template>
 \t
 </template>
 
 <script>
-	export default {{
-        props: {{
-            {}
-        }}
-	}}
+export default {{
+  props: {{
+    {}
+  }}
+}}
 </script>
 '''.format(propsStr[:-2])
 
